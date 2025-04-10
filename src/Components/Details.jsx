@@ -19,8 +19,6 @@ const Details = () => {
   const { id, type } = useParams();
   const imgBaseUrl = "https://image.tmdb.org/t/p/w500/";
 
- 
-
   const handleButton = () => {
     setShow(!show);
   };

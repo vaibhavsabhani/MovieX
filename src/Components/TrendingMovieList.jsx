@@ -12,7 +12,7 @@ const TrendingMovieList = () => {
     const scrollRef = useRef(null);
 
    if(dayFetching){
-    <CircularProgress />
+    <CircularProgress/>
    }
 
     useEffect(() => {
