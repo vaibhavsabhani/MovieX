@@ -13,8 +13,6 @@ const Cast = () => {
     type === "movie" ? useGetMovieCreditsQuery(id) : useGetTVCreditsQuery(id);
 
   const { data } = getCredits;
-//   console.log(data);
-
   return (
     <div>
       <h1 className="text-2xl font-bold mt-10 text-white">Top Cast</h1>
