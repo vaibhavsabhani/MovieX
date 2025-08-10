@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { GrClose } from "react-icons/gr";
 import { Link, useNavigate } from "react-router-dom";
+import logo from '../assets/movix-logo.svg'; // adjust the path based on file location
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +30,7 @@ const Navbar = () => {
     <div className="flex justify-between items-center bg-transparent h-20 text-2xl pr-3 md:pr-9 pl-2.5 shadow-2xl ">
       <div>
         <Link to="/">
-          <img className="md:h-14" src="src/assets/movix-logo.svg" alt="Logo" />
+          <img className="md:h-14" src={logo} alt="Logo" />
         </Link>
       </div>
 

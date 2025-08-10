@@ -10,7 +10,7 @@ import {
 import { CircularProgress, Skeleton } from "@mui/joy";
 import Cast from "./Cast";
 import YtVideos from "./YtVideos";
-import PlayButton from "./playButton";
+import PlayButton from "./PlayButton";
 import SimilarMovies from "./SimilarMovies";
 import RecommandMovies from "./RecommandMovies";
 
