@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const Body = () => {
+const SearchBar = () => {
   const [inputValue, setInputValue] = useState("");
   const navigate = useNavigate();
-  console.log(inputValue);
 
   const handleButton = () => {
     if (inputValue.trim() !== "") {
@@ -39,4 +38,4 @@ const Body = () => {
   );
 };
 
-export default Body;
+export default SearchBar;
